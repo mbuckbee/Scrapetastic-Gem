@@ -6,7 +6,7 @@ module Scrapetastic
     @base_uri = 'https://scrapetastic.expeditedaddons.com'
 
     # Your API Key
-    @api_key = 'TODO: Replace'
+    @api_key = ENV['SCRAPETASTIC_API_KEY']
 
     # create the getters and setters
     class << self
